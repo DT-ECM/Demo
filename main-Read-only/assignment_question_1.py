@@ -1,6 +1,6 @@
 import sys;
 sys.path.append('./')
 import Assignment_Submission;
-text = input()
-list = test.split(",")
-print(Assignment_Submission.question1(text))
+text = input().split(",")
+input_param = [int(a) for a in text]
+print(Assignment_Submission.question1(input_param))
